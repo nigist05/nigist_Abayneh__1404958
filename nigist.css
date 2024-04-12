@@ -1,0 +1,129 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+header{
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    align-items: center;
+    z-index: 1;
+    
+}
+#header > ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none; 
+    
+}
+#header > ul li {
+    margin-left: 20px; 
+}
+
+#header > ul li a {
+    color: wheat; 
+    text-decoration: none; 
+    font-size: 18px; 
+    transition: color 0.3s; 
+    padding: 10px 15px; 
+    
+}
+
+#header > ul li a:hover {
+    color: white; 
+}
+#header{
+    color: beige;
+    display: flex;
+    gap: 75%;
+    padding-left: 140px;
+}
+body{
+    background-image: url(pc.jpg);
+    background-size: cover;
+}
+.container {
+    position: relative;
+    background-color: black;
+    width: 75%;
+    margin: 10%;
+    opacity: 1;
+    transition: ease-in-out 0.4s;
+    overflow-y: hidden;
+    transition: all 0.3s ease;
+   
+
+}
+
+.basic-details, .bio, .education-details {
+    margin-bottom: 30px;
+    
+}
+.basic-details{
+    padding-top: 10px;
+    padding-left: 20px;
+    display: flex;
+   
+
+}
+.education-details{
+    margin-left: 20px;
+
+}
+#info{
+    padding-top: 80px;
+}
+p{
+    color: azure;
+}
+img {
+    float: right;
+    max-width: 100%;
+    height: auto;
+    /* border-radius: 50%; */
+}
+.basic-details > div{
+    flex-basis: 50%;
+    font-size: 20pt;
+}
+h2, h3 {
+    color: #eac3c3;
+}
+.bio{
+    clear: both;
+}
+.details{
+    display: flex;
+    gap: 10%;
+    margin:20px;
+    padding:10px;
+
+}
+.bio{
+    margin:20px;
+}
+
+
+footer {
+    height: 50px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* padding: 0 40px;  */
+    margin-bottom: 20px;
+    background: black;
+}
+
+footer > ul {
+    margin:20px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; 
+    gap: 40px;
+}
+
+
